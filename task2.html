@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+	<!-- Adding jQuery scripts required to run jQuery -->
+	<script src=
+"https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js">
+	</script>
+
+	<!-- This script will prevent
+		right click -->
+	<script>
+		$(document).ready(function () {
+			$(document).bind("contextmenu", function (e) {
+				return false;
+			});
+		});
+	</script>
+
+	<!-- Adding style -->
+	<style>
+		h1 {
+			color: purple;
+		}
+		p {
+			color: crimson;
+		}
+	</style>
+</head>
+
+<!-- Body of the page -->
+<body>
+	<center>
+		<h1>hello!!!!</h1>
+
+		<p>
+			hello......
+		</p>
+	</center>
+</body>
+
+</html>
